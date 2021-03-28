@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/Foundry-v0.7.9-informational)
 [![](https://img.shields.io/badge/爱发电/hmqgg-%C2%A55-orange)](https://afdian.net/@mitch)
+![](https://img.shields.io/github/downloads/fvtt-cn/FoundryVTT-BiliLive-Danmaku/total)
 
 # FVTT 哔哩哔哩直播弹幕监控
 [English Readme](./REAME_ENG.md) | [简体中文](./README.md) 

@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/Foundry-v0.7.9-informational)
 [![](https://img.shields.io/badge/AFDian/hmqgg-%C2%A55-orange)](https://afdian.net/@mitch)
+![](https://img.shields.io/github/downloads/fvtt-cn/FoundryVTT-BiliLive-Danmaku/total)
 
 # Foundry VTT Bilibili Live Danmaku Monitor
 [English Readme](./REAME_ENG.md) | [简体中文](./README.md) 
