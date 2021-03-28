@@ -24,6 +24,9 @@ Recommend you use [Tabbed ChatLog (FVTT Fork)](https://github.com/fvtt-cn/Foundr
 ## Donation
 If you'd like buy me a coffee, you could support this module on [AFDian](https://afdian.net/@mitch).
 
+## Contributors
+- [hmqgg](https://github.com/hmqgg) from [FVTT-CN](https://github.com/fvtt-cn)
+
 ## Acknowledgements
 - [bilibili-danmaku-client](https://github.com/Tsuk1ko/bilibili-danmaku-client)
 

@@ -3,7 +3,7 @@
 ![](https://img.shields.io/github/downloads/fvtt-cn/FoundryVTT-BiliLive-Danmaku/total)
 
 # FVTT 哔哩哔哩直播弹幕监控
-[English Readme](./REAME_ENG.md) | [简体中文](./README.md)
+[English Readme](./README_ENG.md) | [简体中文](./README.md)
 
 哔哩哔哩直播弹幕同步到 FVTT 的超游聊天之中，同时允许哔哩哔哩直播观众发送查询指令，帮助他们更好地 Get 到当前战役！
 
