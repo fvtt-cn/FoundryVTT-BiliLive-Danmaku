@@ -59,10 +59,10 @@ function queryPc(pc) {
     if (pc.data.data.attributes.hp.tempmax && pc.data.data.attributes.hp.tempmax > 0) {
         hpText += `+${pc.data.data.attributes.hp.tempmax}`;
     }
+    let classText = pc.items.filter(x => x.type === "class").map(x => `${x.name}(${x.data.data.subclass})`).join(", ");
+    msg += `<i>${game.i18n.localize("ITEM.TypeClass")}:</i> ${classText ? classText : game.i18n.localize("PERMISSION.NONE")}<br>`;
     msg += `<i>${game.i18n.localize("DND5E.Race")}:</i> ${pc.data.data.details.race}<br>`;
     msg += `<i>${game.i18n.localize("DND5E.HP")}:</i> ${hpText} <i>${game.i18n.localize("DND5E.AC")}:</i> ${pc.data.data.attributes.ac.value} <i>${game.i18n.localize("DND5E.Speed")}:</i> ${pc.data.data.attributes.movement.walk}${pc.data.data.attributes.movement.units}<br>`;
-    let classText = pc.items.filter(x => x.type === "class").map(x => `${x.name}(${x.data.data.subclass})`).join(", ");
-    msg += `<i>${game.i18n.localize("ITEM.TypeClass")}:</i> ` + !!classText ? classText : game.i18n.localize("PERMISSION.NONE") + "<br>";
     if (pc.data.data.attributes.senses.darkvision > 0) {
         msg += `<i>${game.i18n.localize("DND5E.SenseDarkvision")}:</i> ${pc.data.data.attributes.senses.darkvision}${pc.data.data.attributes.senses.units}`;
     }
