@@ -1,7 +1,7 @@
 {
     "name": "bililive",
     "title": "Bilibili Live Danmaku",
-    "description": "整合 Bilibili 直播间弹幕到 FVTT OOC 聊天中。",
+    "description": "【FVTT-CN/hmqgg 开发】整合 Bilibili 直播间弹幕到 FVTT OOC 聊天中。\nIntegrate Bilibili Live Room Danmaku into Foundry VTT OOC Chat Logs.",
     "author": "hmqgg <mitchx7@outlook.com> [FVTT-CN]",
     "version": "0.1.5",
     "minimumCoreVersion": "0.7.9",
