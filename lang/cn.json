@@ -1,0 +1,18 @@
+{
+  "bililive.speaker": "直播弹幕",
+  "bililive.donar": "直播礼物",
+  "bililive.command": "直播指令查询",
+  
+  "bililive.hpquery": "查看 HP",
+  "bililive.pcquery": "查看角色",
+  "bililive.pcquery-encumbrance": "负重",
+
+  "bililive.settings.room.name": "哔哩哔哩直播间 ID",
+  "bililive.settings.room.hint": "哔哩哔哩直播间的真实房间号，并非用户 UID",
+  "bililive.settings.giftPublic.name": "礼物消息公开发送",
+  "bililive.settings.giftPublic.hint": "开启后，所有连线玩家都可以看到礼物消息",
+  "bililive.settings.danmakuPublic.name": "弹幕消息公开发送",
+  "bililive.settings.danmakuPublic.hint": "开启后，所有连线玩家都可以看到弹幕消息",
+  "bililive.settings.commandPublic.name": "查询结果公开发送",
+  "bililive.settings.commandPublic.hint": "开启后，所有连线玩家都可以看到弹幕查询指令的结果"
+}

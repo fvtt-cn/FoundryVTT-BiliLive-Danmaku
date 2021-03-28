@@ -1,0 +1,38 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: Build project
+        id: build-zip
+        run: |
+          zip -r bililive.zip module.json bililive.js lang/ modules/
+      - name: Get Version
+        id: get-version
+        shell: bash
+        run: echo "::set-output name=version::$(node ./.github/workflows/get-version.js)"
+
+      - name: Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        if: endsWith(github.ref, 'main')
+        with:
+          name: 版本 ${{ steps.get-version.outputs.version }}
+          tag_name: ${{ steps.get-version.outputs.version }}
+          files: |
+            module.json
+            bililive.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

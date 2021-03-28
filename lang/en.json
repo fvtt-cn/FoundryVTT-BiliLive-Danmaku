@@ -1,0 +1,18 @@
+{
+  "bililive.speaker": "Live Danmaku",
+  "bilibili.donar": "Live Gift",
+  "bililive.command": "Live Command",
+
+  "bililive.hpquery": "HP Query",
+  "bililive.pcquery": "PC Query",
+  "bililive.pcquery-encumbrance": "Encumbrance",
+
+  "bililive.settings.room.name": "Bilibili Live Room ID",
+  "bililive.settings.room.hint": "Bilibili Live Room to sync danmaku.",
+  "bililive.settings.giftPublic.name": "Public Gift Message",
+  "bililive.settings.giftPublic.hint": "If checked, all players will be able to see the gift messages.",
+  "bililive.settings.danmakuPublic.name": "Public Danmaku Message",
+  "bililive.settings.danmakuPublic.hint": "If checked, all players will be able to see the danmaku messages.",
+  "bililive.settings.commandPublic.name": "Public Query Message",
+  "bililive.settings.commandPublic.hint": "If checked, all players will be able to see the query results."
+}
