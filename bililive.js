@@ -13,9 +13,7 @@ Hooks.on("ready", () => setupDanmakuClient());
 
 function setupDanmakuClient() {
     try {
-        if (danmaku.client) {
-            danmaku.client.terminate();
-        }
+        danmaku.client?.terminate();
     } catch (ex) {
         console.error("Bililive | Danmaku Client Termination failed!", ex);
     }
