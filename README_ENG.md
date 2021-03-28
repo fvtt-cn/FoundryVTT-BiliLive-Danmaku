@@ -13,7 +13,8 @@ Set Bilibili Live Room ID in the module settings then every Danmaku and Donar me
 For some systems such as D&D5e, this module also supports Query Commands (`/HP`, `/PC`) which will return the query result as an OOC message. If you're also live streaming `/stream` page, the viewer will get what they want to know in real time.
 
 ## Installation
-Manifest URL: https://github.com/fvtt-cn/FoundryVTT-BiliLive-Danmaku/releases/latest/download/module.json
+- Manifest URL: https://github.com/fvtt-cn/FoundryVTT-BiliLive-Danmaku/releases/latest/download/module.json
+- In Foundry VTT Module Manager, search `bililive`
 
 Recommend you use [Tabbed ChatLog (FVTT Fork)](https://github.com/fvtt-cn/FoundryVTT-Tabbed-Chatlog).
 

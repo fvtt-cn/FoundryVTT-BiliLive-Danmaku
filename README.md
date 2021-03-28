@@ -13,7 +13,8 @@
 对于部分系统比如 D&D5e，该 MOD 同样支持发送查询指令（`/HP`, `/PC`），这些指令将会以超游聊天消息的形式，返回查询的结果。如果你同时直播 `/stream` 页面的内容，观众就可以实时看到他们想要知道的信息。 
 
 ## 安装
-清单文件地址：https://github.com/fvtt-cn/FoundryVTT-BiliLive-Danmaku/releases/latest/download/module.json
+- 清单文件地址：https://github.com/fvtt-cn/FoundryVTT-BiliLive-Danmaku/releases/latest/download/module.json
+- 在 Foundry VTT MOD 管理器中搜索: `bililive`
 
 推荐同时使用 [Tabbed ChatLog（FVTT 版本）](https://github.com/fvtt-cn/FoundryVTT-Tabbed-Chatlog)。
 
