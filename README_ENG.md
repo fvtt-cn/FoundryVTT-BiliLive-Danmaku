@@ -3,7 +3,7 @@
 ![](https://img.shields.io/github/downloads/fvtt-cn/FoundryVTT-BiliLive-Danmaku/total)
 
 # Foundry VTT Bilibili Live Danmaku Monitor
-[English Readme](./REAME_ENG.md) | [简体中文](./README.md) 
+[English Readme](./REAME_ENG.md) | [简体中文](./README.md)
 
 Sync Bilibili Live Danmakus with Foundry VTT Out of Character Chat Logs and allow Bilibili Live viewers to send Query Commands that help them get into the session interactively!
 
