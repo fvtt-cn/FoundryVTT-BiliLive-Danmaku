@@ -1,0 +1,29 @@
+{
+    "name": "bililive",
+    "title": "Bilibili Live Danmaku",
+    "description": "【FVTT-CN/hmqgg 开发】整合 Bilibili 直播间弹幕到 FVTT OOC 聊天中。\nIntegrate Bilibili Live Room Danmaku into Foundry VTT OOC Chat Logs.",
+    "author": "hmqgg <mitchx7@outlook.com> [FVTT-CN]",
+    "version": "2021.3.28.10.0.0",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.7.9",
+    "esmodules": [
+        "./bililive.js",
+        "./modules/danmaku.js"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "/lang/en.json"
+        },
+        {
+            "lang": "cn",
+            "name": "中文",
+            "path": "/lang/cn.json"
+        }
+    ],
+    "url": "https://github.com/fvtt-cn/FoundryVTT-BiliLive-Danmaku",
+    "changelog": "https://github.com/fvtt-cn/FoundryVTT-BiliLive-Danmaku/blob/main/CHANGELOG.md",
+    "manifest": "https://github.com/fvtt-cn/FoundryVTT-BiliLive-Danmaku/releases/download/nightly/module.json",
+    "download": "https://github.com/fvtt-cn/FoundryVTT-BiliLive-Danmaku/releases/download/nightly/bililive.zip"
+}

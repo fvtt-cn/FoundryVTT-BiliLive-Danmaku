@@ -1,0 +1,36 @@
+name: Nightly Release
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        id: checkout
+        uses: actions/checkout@v2
+      - name: Overwrite Manifest
+        id: nightly-version
+        shell: bash
+        run: node ./.github/workflows/nightly-version.js
+      - name: Build project
+        id: build-zip
+        run: |
+          zip -r bililive.zip module.json bililive.js lang/ modules/
+
+      - name: Nightly Release
+        id: nightly_release
+        uses: ncipollo/release-action@v1
+        if: endsWith(github.ref, 'develop')
+        with:
+          name: nightly
+          tag: nightly
+          allowUpdates: true
+          replacesArtifacts: true
+          artifacts: 'module.json,bililive.zip'
+          token: ${{ secrets.GITHUB_TOKEN }}
+
