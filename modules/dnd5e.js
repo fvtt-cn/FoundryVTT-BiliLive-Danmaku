@@ -16,11 +16,12 @@ function dnd5eCommand({ content, sender }) {
         }
     } else if (content?.toUpperCase().startsWith("PC")) {
         // Player owned, unnecessary to be active.
+        const pcName = content.slice(2).trim();
         const pcs = game.users
             .map(x => x.data?.character)
             .filter(x => x)
             .map(x => game.actors.get(x));
-        const pc = pcs.filter(x => x.name.startsWith(content.slice(2)))[0];
+        const pc = pcs.filter(x => x.name.startsWith(pcName))[0];
         if (pc) {
             msg += `<b>${sender.name}</b> ${game.i18n.localize("bililive.pcquery")} <u><b>${pc.data.name}</b></u>:<br>`;
             msg += queryPc(pc);
