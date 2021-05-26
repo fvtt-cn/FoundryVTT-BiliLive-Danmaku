@@ -17,7 +17,7 @@ jobs:
       - name: Build project
         id: build-zip
         run: |
-          zip -r bililive.zip module.json bililive.js lang/ modules/
+          zip -r bililive.zip module.json bililive.js lang/ modules/ templates/ styles/
       - name: Get Version
         id: get-version
         shell: bash
